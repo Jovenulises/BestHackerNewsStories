@@ -1,0 +1,10 @@
+### Local
+@host = http://localhost:5273
+
+### Pruebas
+# @host = https://test.ulisescruz.vip
+
+GET {{host}}/stories/best-stories?n=10
+Accept: application/json
+
+###
