@@ -21,6 +21,8 @@ builder.Services.AddCors(options =>
               .AllowAnyMethod();
     });
 });
+builder.Services.AddMemoryCache();
+
 
 
 var app = builder.Build();
